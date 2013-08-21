@@ -1,10 +1,3 @@
-/*
- * readimage.cpp
- *
- *  Created on: 20-Aug-2013
- *      Author: darshil
- */
-
 #include <cv.h>
 #include <highgui.h>
 
