@@ -1,6 +1,6 @@
 #include<cv.h>
 #include<highgui.h>
-
+#define w 250
 using namespace cv;
 void drawEllipse(Mat, double);
 void drawCircle(Mat);
@@ -26,7 +26,7 @@ void drawEllipse(Mat img, double angle) {
 	int thickness = 2;
 	int lineType = 8;
 
-	ellipse(img, Point(200, 200), Size(100, 25), angle, 0, 360,
+	ellipse(img, Point(w/2, w/2), Size(w/8, w/32), angle, 0, 360,
 			Scalar(255, 0, 0), thickness, lineType);
 }
 
@@ -34,7 +34,7 @@ void drawCircle(Mat img)
 {
 	int thickness = -1;
 	int lineType = 8;
-	circle(img, Point(200,200), 50, Scalar(255,255,200), thickness, lineType);
+	circle(img, Point(w/2,w/2), w/4, Scalar(255,255,200), thickness, lineType);
 
 }
 
