@@ -12,6 +12,6 @@ This repository include different (or simple) programs for implementing it on Op
  *	Drawing a Circle inside an image (circle.cpp, circle.py)
  *	Drawing an Ellipse (ellipses.cpp, ellipses.py)
  *	Drawing a Polygon (polygon.cpp, polygon.py)
- *	Drawing a Rectangle (rect.cpp)
+ *	Drawing a Rectangle (rect.cpp, rect.py)
  *	Drawing shapes on existing image (shponimg.cpp, shponimg.py)
 
